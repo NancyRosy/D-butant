@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color :#ffffff ;
+}
+/* style de la barre de navigation*/
+
+nav{
+    background-color: #ffbe6a ;
+}
+    
+  .navbar  {
+        list-style-type: none; /* Supprimer les puces */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox pour la mise en page */
+}
+
+.navbar li {
+    flex: 1; /* Chaque élément prend une part égale */
+    }
+
+.navbar a {
+    color: white ; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    padding: 14px 20px; /* Espacement autour du texte */
+}
+
+.navbar a:hover {
+    color: #ff74006d; /* Changer la couleur au survol */
+}
+    
+
+
+nav ul {
+list-style: none;
+    text-align : right;
+    text-decoration: none;
+   color: #ffb300b8;
+    font-weight: bold;
+    transition: color 0.4s;
+   
+}
+
+      /* style de texte */
+      .texte { 
+    background-color: #3fb7ffb9 ;
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 23px 42px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+        h1 {
+            color : yellow;
+             }/* couleur de h1 */
+            
+            /* formulaire*/
+             form {
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* dimensions */
+
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* bouton */
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #ff7400d6;
+    color: black;
+    border : none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.4s;
+   
+}
+
+button:hover {
+        
+    color: #ff9e55;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+    
+   
+   
